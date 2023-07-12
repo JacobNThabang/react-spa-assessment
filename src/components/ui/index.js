@@ -1,5 +1,5 @@
-import NavBar from "./ui/NavBar";
-import Footer from "./ui/Footer";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 
 export {
