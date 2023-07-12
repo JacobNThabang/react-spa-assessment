@@ -1,7 +1,7 @@
 function Home() {
     return (
         <div>
-            <h1>Welcome Home !</h1>
+            <p className="text-3xl font-semibold">Welcome Home !</p>
         </div>
     );
 }
