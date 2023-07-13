@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from "../../logo.svg"
+import {ReactComponent as MyLogo} from  "../../logo.svg"
 import { useState } from "react";
 import menu from "../../menu.svg"
 
@@ -56,8 +56,8 @@ export default function NavBar() {
     }
     
     return  (
-        <header className="bg-primary-bg ticky top-0 z-20 mx-auto h-20 px-20 flex items-center justify-between">
-            <img src={logo} alt="Logo" />
+        <header className="md:bg-primary-bg sm:bg-white sticky top-0 z-20 mx-auto h-20 px-20 flex items-center justify-between">
+            <MyLogo className="md:stroke-white md:fill-white sm:stroke-primary-bg sm:fill-primary-bg" />
             <Nav />
             <button className="hidden md:flex bg-white text-primary-bg text-sm font-bold rounded-[50px] px-4 py-2">
                 Let's Talk
