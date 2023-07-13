@@ -1,11 +1,12 @@
 import { Hero } from "../components/home";
-import { NavBar } from "../components/ui";
+import { Footer, NavBar } from "../components/ui";
 
 function Home() {
     return (
         <>
             <NavBar />
             <Hero />
+            <Footer />
         </>
     );
 }
