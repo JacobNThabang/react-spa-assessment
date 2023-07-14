@@ -7,10 +7,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, there is another nested dierectoty fro the Backend Server
 Make sure that the express server is running by following these steps:
 
-### cd server
-### npm install
-### node server.js
-### cd ..
+### `cd server` to go to the server dir
+### `npm install`
+### `node server.js` to run and get the server running/listening
+### `cd ..`
 
 And then In the project directory, you can run:
 
