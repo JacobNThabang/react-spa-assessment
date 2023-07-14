@@ -4,7 +4,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, there is another nested dierectoty fro the Backend Server
+Make sure that the express server is running by following these steps:
+
+### cd server
+### npm install
+### node server.js
+### cd ..
+
+And then In the project directory, you can run:
 
 ### `npm start`
 
