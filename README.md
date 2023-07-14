@@ -10,7 +10,7 @@ Make sure that the express server is running by following these steps:
 ### `cd server` to go to the server dir
 ### `npm install`
 ### `node server.js` to run and get the server running/listening
-### `cd ..`
+### Leave the server running and go to another terminal
 
 And then In the project directory, you can run:
 

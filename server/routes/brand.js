@@ -1,5 +1,4 @@
 import express from "express";
-import imageSchema from "./models/image.js"
 import fs from "fs";
 import path from "path";
 import db from "../db/connection.js";
