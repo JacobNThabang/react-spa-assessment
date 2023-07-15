@@ -1,4 +1,4 @@
-import { Brands, Hero, Offers } from "../components/home";
+import { Brands, CaseStudies, Hero, Offers } from "../components/home";
 import { Footer, NavBar } from "../components/ui";
 
 function Home() {
@@ -7,6 +7,7 @@ function Home() {
             <NavBar />
             <Hero />
             <Offers />
+            <CaseStudies />
             <Brands />
             <Footer />
         </>
